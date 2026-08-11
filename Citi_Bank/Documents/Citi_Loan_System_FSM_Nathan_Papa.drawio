@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="_mLh5s1gHW7eIzMwcko1">
+    <mxGraphModel dx="774" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fir43L8N8BpcPcFT5urb-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="Start" vertex="1">
+          <mxGeometry height="60" width="60" x="216" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Pending Approval" vertex="1">
+          <mxGeometry height="40" width="160" x="166" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Application Submited" vertex="1">
+          <mxGeometry height="40" width="160" x="166" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Approved" vertex="1">
+          <mxGeometry height="40" width="160" x="166" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Active / Disbursed" vertex="1">
+          <mxGeometry height="40" width="160" x="166" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Closed / Paid Off" vertex="1">
+          <mxGeometry height="40" width="160" x="166" y="638" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-7" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-6" value="Final Installment Paid">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="306" y="688" as="sourcePoint" />
+            <mxPoint x="356" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-8" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-4" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-5" value="Customer Signs Contract">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="256" y="458" as="sourcePoint" />
+            <mxPoint x="246" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-9" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-2" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-4" value="Credit Check Passed">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="176" y="358" as="sourcePoint" />
+            <mxPoint x="176" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-10" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-2" value="&lt;div&gt;Internal Review&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="246" y="218" as="sourcePoint" />
+            <mxPoint x="246" y="298" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-11" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="236" y="110" as="sourcePoint" />
+            <mxPoint x="236" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-13" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Rejected" vertex="1">
+          <mxGeometry height="80" width="80" x="610" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-14" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Withdrawn" vertex="1">
+          <mxGeometry height="80" width="80" x="610" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;Default /&lt;/div&gt;&lt;div&gt;Delinquent&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="610" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-17" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-5" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-16" value="If customer stops paying?">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="500" as="sourcePoint" />
+            <mxPoint x="430" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-18" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-4" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-14" value="Customer changes their mind and don&#39;t sign?">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-19" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-2" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-13" value="If the customer has a bad credit">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="290" as="sourcePoint" />
+            <mxPoint x="634" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-23" edge="1" parent="1" source="Fir43L8N8BpcPcFT5urb-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Fir43L8N8BpcPcFT5urb-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="246" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fir43L8N8BpcPcFT5urb-25" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="End" vertex="1">
+          <mxGeometry height="66" width="66" x="213" y="760" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
